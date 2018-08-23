@@ -7,9 +7,9 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
  
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = '1';
+const prefix = '6';
 client.on('ready', function() {
-    client.user.setGame(`Type 1play `,"http://twitch.tv/Baktash_183")
+    client.user.setGame(`Type 6play `,"http://twitch.tv/Baktash_183")
     console.log(`i am ready ${client.user.username}`);
 });
 /*
@@ -258,7 +258,7 @@ client.on('message', message => {
  
  
 client.on('message', message => {
-var prefix = "1";
+var prefix = "6";
  
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
